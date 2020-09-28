@@ -1,6 +1,7 @@
 package machine;
 import java.util.Scanner;
 
+//
 public class CoffeeMachine {
     public Scanner scanner = new Scanner(System.in);
 
@@ -22,8 +23,6 @@ public class CoffeeMachine {
         }
     }
 
-
-    String userInput;
     int waterInMachine = waterLevel(400, 0);
     int milkInMachine = milkLevel(540, 0);
     int beansInMachine = coffeeLevel(120, 0);
